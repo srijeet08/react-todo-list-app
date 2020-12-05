@@ -1,5 +1,4 @@
 import React from "react";
-import { isElement } from "react-dom/test-utils";
 
 const Todo = ({ text, todos, setTodos, todo }) => {
   const deleteHandler = () => {
